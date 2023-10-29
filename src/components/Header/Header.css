@@ -8,3 +8,15 @@ h1 {
     padding-left: 4rem;
 
 }
+
+/* ipad screen size */
+@media screen and (max-width: 821px) {
+    .header {
+        padding-left: 2rem;
+    }
+  }
+  
+  /* mobile devices */
+  @media screen and (max-width: 400px) {
+
+  }

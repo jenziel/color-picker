@@ -1,9 +1,8 @@
-input {
+.color-input {
     height: 6rem;
     width: 18vw;
     font-size: 3rem;
     padding: 1rem;
-    margin-right: 1rem;
 }
 .change-color {
     margin-top: 2rem;
@@ -18,3 +17,50 @@ input {
     justify-content: flex-start;
     font-size: 2rem;
 }
+
+@media screen and (max-width: 1504px) {
+    .color-input {
+     
+        width: 30vw;
+      
+    }
+  }
+
+/* ipad screen size */
+@media screen and (max-width: 821px) {
+    .instructions {
+        justify-content: flex-start;
+    }
+    .color-directions {
+        margin-top: 1rem;
+    }
+    .preview-input {
+        width: 70%;
+    }
+    .form-btn {
+        height: 6rem;
+    }
+    .change-color {
+        margin-top: .2rem;
+        margin-bottom: .5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* width: 40vw; */
+    }
+  }
+
+/* mobile devices */
+@media screen and (max-width: 400px) {
+    .instructions {
+        align-items: flex-start;
+    }
+    .color-input {
+        width: 30vw;
+        height: 4rem;
+        font-size: 3rem;
+    }
+    .color-directions {
+        margin-top: 1rem;
+    }
+  }

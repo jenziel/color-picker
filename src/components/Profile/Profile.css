@@ -4,12 +4,23 @@
     padding: 2rem;
     font-size: 6rem;
     /* height: 40vh; */
-    width: 70vw;
+    width: 70%;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
     margin-bottom: 2rem;
     margin-top: 2rem;
     background-color: lightcyan;
 }
+/* ipad screen size */
+@media screen and (max-width: 821px) {
+    .profile-container { 
+        width: auto;
+    }
+  }
+/* mobile devices */
+@media screen and (max-width: 400px) {
+ 
+  }

@@ -4,7 +4,8 @@ import  PreviewText from '../PreviewText/PreviewText'
 // import Login from "../Login/Login";
 import Header from "../Header/Header";
 import ChangeColor from "../ChangeColor/ChangeColor";
-import {colorChart} from '../../images/css_colors.png' 
+import ColorChart from "../ColorChart/ColorChart";
+// import {colorChart} from '../../images/css_colors.png' 
 function App() {
   return (
     <main>
@@ -17,7 +18,7 @@ function App() {
 
             </div>
             <Profile />
-          <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627409580379/19ZqK8fGv.png" alt="chart of 161 css color names"></img>
+            <ColorChart /> 
      
 
       </div>

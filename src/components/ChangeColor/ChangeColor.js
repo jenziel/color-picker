@@ -10,12 +10,12 @@ function ChangeColor() {
     const dispatch = useDispatch();
   return (
     <div className="instructions">
-      <p>type in a color using a descriptive name shown below</p>
+      <p className='color-directions'>type in a color using a descriptive name shown below:</p>
     <div className="change-color">
-        <input type="text" onChange={(event) => {setColor(event.target.value)}}>
+        <input className='color-input' type="text" onChange={(event) => {setColor(event.target.value)}}>
             {/* here we're assigning the state to be equal to whatever you wrote in this input */}
         </input>
-      <button onClick={() => {
+      <button className='form-btn' onClick={() => {
         dispatch(changeColor(color))
       }}>pick a color</button>
     </div>

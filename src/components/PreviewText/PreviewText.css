@@ -8,4 +8,36 @@
 }
 .preview-input {
     width: 30vw;
+    height: 4rem;
+    font-size: 3rem;
+    margin-top: 0px;
+    height: 6rem;
 }
+.change-text {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* width: 40vw; */
+}
+button {
+    margin-left: 1rem;
+}
+/* ipad screen size */
+@media screen and (max-width: 821px) {
+    .instructions {
+        justify-content: flex-start;
+    }
+    .preview-input {
+        width: 70%;
+    }
+  }
+/* mobile devices */
+@media screen and (max-width: 400px) {
+    .instructions {
+        justify-content: flex-start;
+    }
+    .preview-input {
+        width: 50vw;
+    }
+  }

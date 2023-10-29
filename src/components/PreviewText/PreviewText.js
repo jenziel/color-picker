@@ -9,10 +9,10 @@ function  PreviewText() {
   return (
     <div className="instructions">
         <p>custom preview:</p>
-        <div className="change-color">
+        <div className="change-text">
             <input placeholder="preview" className='preview-input' type="text" onChange={(event) => {setText(event.target.value)}}>
             </input>
-          <button onClick={() => {
+          <button className='form-btn' onClick={() => {
             dispatch(changeSampleText(text))
           }}>submit</button>
         </div>
