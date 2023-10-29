@@ -1,10 +1,9 @@
 .color-chart {
-    padding: 20px;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(6, 1fr); 
     grid-template-rows: repeat(20, 1fr);
-    width: 80%;
+    width: 100%;
   }
   /* @media screen and (max-width: 2280px) {
     .color-chart {

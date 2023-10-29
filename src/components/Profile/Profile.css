@@ -3,8 +3,7 @@
     border-radius: 2rem;
     padding: 2rem;
     font-size: 6rem;
-    /* height: 40vh; */
-    width: 70%;
+    width: 95%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -16,11 +15,18 @@
 }
 /* ipad screen size */
 @media screen and (max-width: 821px) {
-    .profile-container { 
-        width: auto;
-    }
-  }
+  .profile-container {
+   
+    font-size: 3rem;
+  
+}
+}
+
 /* mobile devices */
 @media screen and (max-width: 400px) {
- 
-  }
+  .profile-container {
+   
+    font-size: 3rem;
+  
+}
+}

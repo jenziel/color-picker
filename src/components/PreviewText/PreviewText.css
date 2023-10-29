@@ -22,6 +22,7 @@
 }
 button {
     margin-left: 1rem;
+    cursor: pointer;
 }
 /* ipad screen size */
 @media screen and (max-width: 821px) {
@@ -39,5 +40,10 @@ button {
     }
     .preview-input {
         width: 50vw;
+            height: 5rem;
+        
+    }
+    .form-btn {
+        height: 5rem;
     }
   }

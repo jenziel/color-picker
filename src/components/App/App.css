@@ -37,19 +37,21 @@ button {
 .inputs-container {
   display: flex;
   flex-direction: row;
-  width: 70vw;
+  width: 95%;
   justify-content: space-between;
+  /* min-height: 30vh; */
 }
 
 @media screen and (max-width: 1504px) {
   .inputs-container {
     flex-direction: column;
-    width: 50vw;
+    width: 95%;
+    align-items: center;
     justify-content: space-between;
     border: solid 2px black;
     border-radius: 10px;
     padding: 1rem;
-    height:33vh;
+  
   }
   .App {
     width: 100%;
@@ -62,6 +64,12 @@ button {
   .form-btn{
     font-size: 2.5rem;
   }
+  .inputs-container {
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-between;
+    /* height:33vh; */
+  }
 }
 /* ipad screen size */
 @media screen and (max-width: 821px) {
@@ -69,7 +77,8 @@ button {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    height: 33vh;
+    /* height: 33vh; */
+    width: 90%;
   }
 
   .App {
@@ -77,10 +86,16 @@ button {
     justify-content: flex-start;
     align-items: flex-start;
   }
-  button {
-    height: 3rem;
+  .form-btn{
+    width: 25vw;
+    height: 2rem;
     font-size: 2rem;
-
+  }
+  .preview-input{
+    height: 2rem;
+  }
+  .color-input {
+    height: 2rem;
   }
 }
 
@@ -88,7 +103,7 @@ button {
 @media screen and (max-width: 400px) {
   .inputs-container {
     flex-direction: column;
-    width: 80vw;
+    width: 90vw;
    height: 45%;
     align-items: flex-start;
   }

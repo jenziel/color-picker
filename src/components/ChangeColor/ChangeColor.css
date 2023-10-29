@@ -56,9 +56,13 @@
         align-items: flex-start;
     }
     .color-input {
-        width: 30vw;
-        height: 4rem;
+        width: 50vw;
+        height: 5rem;
         font-size: 3rem;
+    }
+    .form-btn {
+        height: 4rem;
+        width: 12rem;
     }
     .color-directions {
         margin-top: 1rem;
