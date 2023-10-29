@@ -13,7 +13,7 @@ function App() {
       <div className='App'>
         <div className='inputs-container'>
           <PreviewText />
-          <ChangeColor />
+          {/* <ChangeColor /> */}
         </div>
         <Profile />
         <ColorChart />

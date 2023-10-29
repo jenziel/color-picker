@@ -38,18 +38,18 @@ button {
   display: flex;
   flex-direction: row;
   width: 95%;
-  justify-content: space-between;
+  justify-content: flex-start;
   /* min-height: 30vh; */
 }
 
 @media screen and (max-width: 1504px) {
   .inputs-container {
-    flex-direction: column;
-    width: 95%;
+    /* flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border: solid 2px black;
-    border-radius: 10px;
+    border-radius: 10px; */
+    width: 95%;
     padding: 1rem;
   
   }
@@ -67,7 +67,7 @@ button {
   .inputs-container {
     flex-direction: column;
     width: 95%;
-    justify-content: space-between;
+    justify-content: flex-start;
     /* height:33vh; */
   }
 }
