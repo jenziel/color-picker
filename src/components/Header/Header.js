@@ -6,7 +6,7 @@ function Header() {
 const theme = useSelector((state) => state.theme.value)
   return (
     <div className="header"  style={{color: theme}}>
-      <h1>Speckle</h1>
+      <h1>coloring book</h1>
     </div>
   )
 }
