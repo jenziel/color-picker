@@ -1,0 +1,40 @@
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+@import url(https://fonts.googleapis.com/css2?family=Barlow&family=Molengo&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.App {
+  text-align: center;
+  font-size: 4rem; 
+  font-family: 'Molengo', sans-serif;
+  height: 100vh;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+  background-color: lightgray;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6.1rem;
+  font-size: 3rem;
+  padding: 1rem;
+  font-family: 'Molengo', sans-serif;
+  border-radius: 10px;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: space-between;
+  /* align-items: center; */
+}

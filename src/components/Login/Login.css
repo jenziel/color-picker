@@ -1,0 +1,12 @@
+.login {
+    display: flex;
+    flex-direction: row;
+   width: 20vw;
+   justify-content: space-between;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

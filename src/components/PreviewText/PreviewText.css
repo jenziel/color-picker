@@ -1,0 +1,11 @@
+.instructions {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Molengo', sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.preview-input {
+    width: 30vw;
+}
