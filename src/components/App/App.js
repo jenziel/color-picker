@@ -1,11 +1,10 @@
 import "./App.css";
 import Profile from "../Profile/Profile";
 import PreviewText from "../PreviewText/PreviewText";
-// import Login from "../Login/Login";
+import React from 'react'
 import Header from "../Header/Header";
-import ChangeColor from "../ChangeColor/ChangeColor";
 import ColorChart from "../ColorChart/ColorChart";
-// import {colorChart} from '../../images/css_colors.png'
+
 function App() {
   return (
     <main>
@@ -13,10 +12,10 @@ function App() {
       <div className='App'>
         <div className='inputs-container'>
           <PreviewText />
-          {/* <ChangeColor /> */}
         </div>
         <Profile />
         <ColorChart />
+        <Profile />
       </div>
     </main>
   );
